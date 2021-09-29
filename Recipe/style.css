@@ -1,0 +1,51 @@
+*{
+margin:0;
+padding: 0;
+}
+
+
+h1 {color:midnightblue;
+font-family: 'Crete Round', serif;
+font-weight: bold;
+font-size: 3rem; /* 48px */
+}
+
+
+p,ul,ol,h2 {
+margin-bottom: 1rem;
+/* 1rem is equal to the font size paragraph */
+margin-top: 1rem;
+}
+
+
+
+h2 {color:maroon;
+  font-family: 'Crete Round', serif;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom:0;
+  margin-top: 2rem;
+}
+
+
+
+body {font-family:sans-serif;
+
+}
+
+
+div {
+  max-width: 1000px;
+  background-color: oldlace;
+  border: solid 4px lightslategray;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+img{
+max-width: 100%
+}
+
+ul,ol {
+margin-left: 1rem;
+}
