@@ -1,0 +1,147 @@
+*{
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+
+
+body{
+  font-family: sans-serif;
+}
+
+
+p, h2, h3{
+  margin-bottom: 1em;
+}
+
+.episodepage h2, .episodepage h3 {
+  margin-left: 1rem;
+}
+
+p{
+  line-height: 1.4em;
+}
+
+
+#wrapper {
+max-width: 1200px;
+background-color: #ffffff;
+
+}
+
+header{
+/* background-image: url(images/manifestcast.jpg);
+background-repeat: no-repeat;
+background-position: top right; */
+background:linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 37%, rgba(255,255,255,0.008841036414565795) 62%, rgba(255,255,255,0) 100%),
+url(images/manifestcast.jpg) no-repeat top right;
+padding: 2em;
+height: 300px;
+
+
+}
+
+h1 img{
+  max-width: 100%;
+}
+
+a:link {
+  color: #2B9BDA;
+}
+
+a:visited{
+  color: #2B9BDA;
+}
+
+a:hover{
+  color:#f00;
+}
+
+p.lead{
+  width: 25%;
+  line-height: 1.4em;
+  padding-bottom: 0.8em;
+  padding-top: 0.5em;
+}
+
+a.btn {
+  max-width: 5rem;
+  background-color: #2B9BDA;
+  background-image: url("images/arrow.png");
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  padding:0.8em;
+  padding-left: 40px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.navbar{
+  background-color: #2B9BDA;
+  padding: 1em;
+}
+
+.navbar li{
+display: inline-block;
+margin-right: 2em;
+border-right: solid 1px #ffffff;
+padding-right: 2em;
+}
+
+.navbar li:last-child{
+  border: none;
+}
+
+.navbar a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar a:hover{
+  color: blue;
+}
+
+.left-col{
+  float: left;
+  width: 55%;
+  padding-left: 0.5em;
+  margin-left: 0.5em;
+}
+
+.right-col{
+  float:right;
+  width: 35%;
+}
+
+footer{
+  clear: both;
+  padding-left: 1em;
+}
+
+main{
+  margin-top: 1em;
+}
+
+.episodes{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.episode-card{
+  flex: 1 0 auto;
+  width: 250px;
+  margin: 0 1em;
+  margin-bottom: 1em;
+}
+
+.responsive-img{
+  width:100%;
+}
+
+/* h2, h3 {
+  margin-left: 1rem;
+} */
