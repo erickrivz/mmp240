@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 10</title>
+    <style>
+      #wrapper{
+          max-width: 1200px;
+          margin: 0 auto;
+      }
+      .main-menu li{
+        display: inline-block;
+        margin-right: 2em;
+      }
+
+      .dropdown{
+        background-color:#e3e3e3;
+        padding: 0;
+        position: absolute;
+        display: none;
+      }
+
+      .dropdown li{
+        display: block;
+        border: solid 1px #ccc;
+        padding:0.5em 2em;
+        margin-right: 0;
+      }
+
+      .main-menu li:hover .dropdown{
+        display: block;
+      }
+
+
+
+
+
+    </style>
+  </head>
+
+
+<ul class="main-menu">
+  <li> <a href="#"> Fruits </a>
+    <ul class="dropdown">
+      <li>Apple</li>
+      <li>Orange</li>
+      <li>Pear</li>
+    </ul>
+   </li>
+      <li> <a href="#"> Vegetables </a>
+      <ul class="dropdown">
+        <li>Cabbage</li>
+        <li>Potatoes</li>
+        <li>Squash</li>
+      </ul>
+      </li>
+
+
+
+
+
+
+  </ul>
