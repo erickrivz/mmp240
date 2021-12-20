@@ -62,12 +62,16 @@ header {
 
 }
 
-.topnav li {
+.topnav li, .topnav form {
   margin: 0;
   padding: 1em;
   border: solid 1px #ccc;
   list-style-type: none;
   text-decoration: none;
+}
+
+.topnav input {
+  height: 1.5em;
 }
 
 
@@ -195,7 +199,7 @@ article, section, header, .banner {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   
+
  }
 
 
@@ -221,7 +225,7 @@ article, section, header, .banner {
    list-style-type: none;
  }
 
- .topnav li{
+ .topnav li, .topnav form{
  margin-right: 2em;
  border: none;
  padding: 0;

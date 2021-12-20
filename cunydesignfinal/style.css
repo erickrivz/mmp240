@@ -65,10 +65,14 @@ header {
 
 }
 
-.topnav li {
+.topnav li, .topnav form {
   margin: 0;
   padding: 1em;
   border: solid 1px #ccc;
+}
+
+.topnav input {
+  height: 2em;
 }
 
 .search {
